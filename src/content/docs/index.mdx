@@ -1,40 +1,19 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: AI Club ML Wiki
+description: The central knowledge base for our AI Club's Machine Learning resources, tutorials, and projects.
+template: splash 
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  title: Welcome to the AI Club Wiki
+  tagline: Dive into machine learning and our latest club projects.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Start Learning
       link: guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+      variant: primary
+    - text: View Club Projects
+      link: https://github.com/UWindsor-AI-Club
+      icon: rocket
+      variant: secondary
 ---
-
-import { Card, CardGrid } from '@astrojs/starlight/components';
-
-## Next steps
-
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>

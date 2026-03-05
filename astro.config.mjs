@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/ai-wiki",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "AI Club Wiki",
       social: [
         {
           icon: "github",
