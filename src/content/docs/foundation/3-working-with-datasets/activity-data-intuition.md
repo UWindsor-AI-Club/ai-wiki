@@ -1,5 +1,5 @@
 ---
-title: Activity - Data Intuition
+title: Activity - Data Exploration
 description: Hands-on exploration of real datasets to develop intuition about data patterns.
 sidebar:
   order: 4
