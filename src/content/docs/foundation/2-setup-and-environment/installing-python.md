@@ -24,7 +24,7 @@ In the Python community, the most popular package managers are:
 
 Other more recent package managers also exist, such as `uv` and `poetry`, but we will not cover them in this guide.
 
-### Setting Up Python via Conda
+### Setting Up Virtual Environment via Conda
 
 In this section, we will install Miniconda instead of the full Anaconda distribution. The key difference between the two distributions is that Anaconda comes pre-installed with popular data science and AI/ML packages (and a few other convenience tools), while Miniconda is a lightweight version of Conda that only comes with the Conda package manager.
 
@@ -64,3 +64,43 @@ When you are done working in your virtual environment, you can deactivate it by 
 ```bash
 conda deactivate
 ```
+
+### Setting Up Virtual Environment via `pip` + `venv`
+
+If you prefer using Python's standard, built-in package manager, you must install Python first, but you will use `venv` to create your virtual environments and `pip` to manage your Python packages. To install Python, go to [python.org](https://www.python.org/downloads/) and follow the instructions for your operating system.
+
+#### 1. Create a Python Virtual Environment
+
+Open your terminal or command prompt. Let's create an environment named `myenv`:
+
+```bash
+python -m venv myenv
+```
+
+Note that to create a `venv` with a specific Python version, you must have that version installed on your system. You can check your Python version by running `python --version`.
+
+Python `venv`s are not stored in a centralized location. Instead, they are created in the directory where you run the command. Usually, they can be found as folders named `venv` or `.venv`.
+
+#### 2. Activate the Environment
+
+Before you can use an environment in your terminal, you must first activate it. Enter the following command:
+
+```bash
+source myenv/bin/activate
+```
+
+If you are using Windows, you can use `myenv\Scripts\activate` instead.
+
+Your terminal prompt will now start with `(myenv)`. You are now in an isolated virtual environment, ready to install packages safely using `pip install <package>`.
+
+#### 3. Deactivate the Environment
+
+When you are done working in your virtual environment, you can deactivate it by running the following command:
+
+```bash
+deactivate
+```
+
+---
+
+Now that you've finished setting up Python on your computer, it's time to move on to the libraries!
