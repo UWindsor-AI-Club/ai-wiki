@@ -1,5 +1,5 @@
 ---
-title: Working with Datasets
+title: Chapter Overview
 description: Understanding data structure - rows, columns, features, and labels.
 sidebar:
   order: 1
