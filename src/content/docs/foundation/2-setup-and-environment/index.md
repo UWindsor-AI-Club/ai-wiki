@@ -1,5 +1,5 @@
 ---
-title: Setup and Environment
+title: Chapter Overview
 description: Why local environments matter and how to set up your machine learning workspace.
 sidebar:
   order: 1
@@ -9,9 +9,9 @@ Before you can start building machine learning models, you need to set up your d
 
 ## What's in this chapter?
 
-- **Installing Python**
-- **Core Libraries**
-- **Activity: First Script**
+- **Installing Python**: Getting Python and setting up a virtual environment
+- **Core Libraries**: Installing core libraries for machine learning
+- **Activity: First Script**: Running a simple "Hello ML" setup script to verify everything works
 
 ## What you will achieve
 
