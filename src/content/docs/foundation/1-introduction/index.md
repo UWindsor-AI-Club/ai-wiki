@@ -9,9 +9,9 @@ Welcome to the AI Club Wiki's Foundations of Machine Learning course! In this co
 
 ## What's in this chapter?
 
-- **What is Machine Learning (ML)?**
-- **Types of ML**
-- **Activity - Prediction Intuition**
+- **What is Machine Learning (ML)?**: Learn about the definition of machine learning and real-world examples of machine learning.
+- **Types of ML**: Learn about the different categories of machine learning.
+- **Activity - Prediction Intuition**: Apply what you've learned to explore a dataset.
 
 ## What you will achieve
 

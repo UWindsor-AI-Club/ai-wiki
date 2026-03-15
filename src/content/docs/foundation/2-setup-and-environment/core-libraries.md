@@ -50,7 +50,7 @@ For all of the libraries above, you can install them all at once by running the 
 pip install numpy pandas scikit-learn matplotlib
 ```
 
-For Conda users, you can install these libraries by replacing `pip` with  `conda`.
+For Conda users, you can install these libraries by replacing `pip` with `conda`.
 
 ```bash
 conda install numpy pandas scikit-learn matplotlib
@@ -60,9 +60,10 @@ conda install numpy pandas scikit-learn matplotlib
 
 ## Keeping Track of Installed Packages
 
-Although not a requirement because we're starting off with a fresh project, it is good practice to keep track of the packages you install in your project. You can do this by creating a `requirements.txt` (or `environment.yml` file, if you're using Conda) that lists all of the packages you install. 
+Although not a requirement because we're starting off with a fresh project, it is good practice to keep track of the packages you install in your project. You can do this by creating a `requirements.txt` (or `environment.yml` file, if you're using Conda) that lists all of the packages you install.
 
 You can either create a `requirements.txt` manually, or by running the following command:
+
 ```bash
 pip freeze > requirements.txt
 ```

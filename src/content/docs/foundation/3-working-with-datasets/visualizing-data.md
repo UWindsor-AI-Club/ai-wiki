@@ -76,7 +76,7 @@ However, for more complex visualizations, `matplotlib` is still recommended.
 
 `matplotlib` can also be used to create multiple sub-visualizations (subplots) within one large visualization. This is commonly used in data exploration to compare distributions or view multiple relationships side by side.
 
-We can create a subplot grid using the `plt.subplots()` function, which gives us a Figure object and an array of Axes objects to plot on. 
+We can create a subplot grid using the `plt.subplots()` function, which gives us a Figure object and an array of Axes objects to plot on.
 
 ```python
 # Create a 1x2 grid of subplots (1 row, 2 columns)
@@ -113,7 +113,6 @@ plt.savefig('filename.png', dpi=300, bbox_inches='tight')
 ```
 
 Here, a few optional parameters are used:
+
 - **`dpi`**: resolution of the saved figure. Higher resolution means better quality, but also means that the file size will be higher.
 - **`bbox_inches`**: This parameter is used to control the amount of whitespace around the saved figure. Setting it to 'tight' removes any extra whitespace around the figure.
-
-

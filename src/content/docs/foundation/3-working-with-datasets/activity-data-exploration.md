@@ -107,7 +107,6 @@ Look at your scatter plot of "Petal Length vs Petal Width." Without using any al
 2. If you saw petal length = 5cm and width = 2cm, what would you predict?
 3. Were you confident in your predictions? Why or why not?
 
-
 ## Reflection
 
-In this activity, you successfully applied your intuition to explore distinct patterns in the data and make predictions based on them. Our next step is to teach a machine how to identify and make these distinctions automatically. Keep in mind this key insight: good features are the foundation of effective models. 
+In this activity, you successfully applied your intuition to explore distinct patterns in the data and make predictions based on them. Our next step is to teach a machine how to identify and make these distinctions automatically. Keep in mind this key insight: good features are the foundation of effective models.

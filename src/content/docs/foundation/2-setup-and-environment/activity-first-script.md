@@ -67,6 +67,7 @@ python hello_ml.py
 ```
 
 ## What's Happening Here?
+
 1. **NumPy**: We use `np.array()` to create a standard numeric array, and `.mean()` to compute its mathematical average.
 2. **pandas**: We use `pd.DataFrame()` to create a structured data table (similar to an Excel spreadsheet), making it easy to store and display labeled records.
 3. **scikit-learn**: We use `make_circles()` from `sklearn.datasets` to generate a synthetic classification dataset of 2D coordinates representing two intersecting circles. We then use `train_test_split()` from `sklearn.model_selection` to randomly shuffle and divide this dataset into a "training" set (80%) and a "test" set (20%).
