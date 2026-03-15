@@ -9,9 +9,9 @@ Data is the foundation of machine learning. Before you can train any model, you 
 
 ## What's in this chapter?
 
-- **Loading Data with pandas**
-- **Visualizing Data using matplotlib**
-- **Activity: Data Exploration**
+- **Loading Data with pandas**: Learn how to load datasets from files and libraries using pandas.
+- **Visualizing Data using matplotlib**: Learn how to create visualizations using matplotlib.
+- **Activity: Data Exploration**: Apply what you've learned to explore a dataset.
 
 ## What you will achieve
 
