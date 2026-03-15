@@ -17,6 +17,10 @@ export default defineConfig({
           href: "https://github.com/withastro/starlight",
         },
       ],
+      tableOfContents: {
+        maxHeadingLevel: 5,
+        minHeadingLevel: 2,
+      },
       plugins: [
         starlightSidebarTopics([
           {
