@@ -49,7 +49,7 @@ Here, we initialize `DecisionTreeClassifier()`. It is also possible to use `Deci
 
 ## Key Hyperparameters
 
-Decision Trees are notoriously prone to overfitting, as they will memorize the training data perfectly if you let them grow deep enough to create tiny, strict branches for every outlier. Hence, the hyperparameters here are crucial for "pruning" the tree so that it generalizes well to unseen data.
+Decision Trees are notoriously prone to overfitting (not generalizing well to unseen data), as they will memorize the training data perfectly if you let them grow deep enough to create tiny, strict branches for every outlier. Hence, the hyperparameters here are crucial for "pruning" the tree so that it generalizes well to unseen data.
 
 - **`max_depth`:** The maximum depth of the tree (default is `None`, and will continue splitting until all leaves are pure). A shallow tree is simple, fast, and highly interpretable, but may be too simple to capture the underlying patterns in the data. A deep tree will remember the training data perfectly but almost certainly will not generalize well to unseen data.
 - **`min_samples_split`:** The minimum number of samples required to split an internal node (default is `2`). Increasing this prevents the model from splitting a node that only contains a handful of samples.
