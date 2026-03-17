@@ -59,6 +59,7 @@ By default, Scikit-Learn's LogisticRegression applies **regularization**. Regula
 - **`max_iter`:** The maximum number of iterations taken for the solvers to converge on the optimal curve. If you get a `ConvergenceWarning`, you usually just need to increase this number (e.g., `max_iter=1000`). The default value is `100`.
 - **`solver`:** The algorithm to use for optimization. The default is `'lbfgs'`. Other options include `'liblinear'`, `'newton-cg'`, `'sag'`, and `'saga'`. The best solver for a given problem depends on the size and complexity of the dataset.
 - **`class_weight`:** The default is `None`, which means that the model will treat all classes equally. However, if you have an imbalanced dataset, you can use this parameter to give more weight to the minority class.
+- **`random_state`:** Controls the randomness of the model. Set this to an integer for reproducible results.
 
 ## When to Use Logistic Regression
 
