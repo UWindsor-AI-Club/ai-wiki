@@ -29,7 +29,7 @@ export default defineConfig({
           {
             label: "Foundations",
             link: "foundation/1-introduction",
-            icon: "book",
+            icon: "open-book",
             items: [
               {
                 label: "Introduction",
