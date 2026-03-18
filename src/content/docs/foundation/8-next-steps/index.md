@@ -30,3 +30,5 @@ Feeling inspired to continue your learning journey? Join the AI Club community t
 The UWindsor AI Club is a student-run organization at the University of Windsor that is dedicated to promoting the understanding and application of artificial intelligence. We host a variety of events, including workshops, hackathons, and Kaggle competitions, to help our members develop their skills and knowledge in AI. We also have a Discord server where members can connect with each other and share their projects.
 
 Join the [AI Club Discord server](https://discord.com/invite/UYMWjsq6ea), or follow us on [Instagram](https://www.instagram.com/uwindsor.ai.club/) and [LinkedIn](https://ca.linkedin.com/company/uwindsor-ai-club)!
+
+We are looking for contributors to our learning wiki, especially on the advanced topics and any other interesting AI topics you'd like to share. If you're interested, feel free to start contributing to this [wiki](https://github.com/UWindsor-AI-Club/ai-wiki) using the [contribution guidelines](../../contributing/github). As well, feel free to check out our [GitHub](https://github.com/uwindsor-ai-club) for more resources and projects!
