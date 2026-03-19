@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Welcome to the AI Club Wiki's Foundations of Machine Learning course! In this course, you'll learn what machine learning is, explore the classic machine learning models in Python, and build your intuition for how machines can learn patterns from data.
+Welcome to the AI Club Wiki's Foundations of Machine Learning course! In this course, you'll learn what machine learning is, explore the classic supervised machine learning models in Python, and build your intuition for how machines can learn patterns from data.
 
 ## What's in this chapter?
 

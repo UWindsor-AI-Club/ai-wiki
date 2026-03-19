@@ -2,14 +2,14 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightSidebarTopics from "starlight-sidebar-topics";
-import mermaid from 'astro-mermaid';
+import mermaid from "astro-mermaid";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://uwindsor-ai-club.github.io/",
-  base: "/ai-wiki",
+  base: "/ai-wiki/",
   integrations: [
     starlight({
       title: "AI Club Wiki",
@@ -37,11 +37,15 @@ export default defineConfig({
               },
               {
                 label: "Setup and Environment",
-                autogenerate: { directory: "foundation/2-setup-and-environment" },
+                autogenerate: {
+                  directory: "foundation/2-setup-and-environment",
+                },
               },
               {
                 label: "Working with Datasets",
-                autogenerate: { directory: "foundation/3-working-with-datasets" },
+                autogenerate: {
+                  directory: "foundation/3-working-with-datasets",
+                },
               },
               {
                 label: "ML Workflow",
@@ -78,7 +82,7 @@ export default defineConfig({
           },
         ]),
       ],
-      customCss: ['katex/dist/katex.css'],
+      customCss: ["katex/dist/katex.css", "/src/styles/colour.css"],
     }),
     mermaid(),
   ],
